@@ -17,3 +17,14 @@ class orang {
     }
 
 };
+
+class peLajar : public orang{
+    public:
+    string sekolah;
+
+    peLajar(string pNama, string pSekolah) : orang(pNama), sekolah(pSekolah){
+        cout << "pelajaran dibuat\n"<< endl;
+
+    }
+
+};
