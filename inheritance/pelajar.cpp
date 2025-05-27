@@ -26,5 +26,9 @@ class peLajar : public orang{
         cout << "pelajaran dibuat\n"<< endl;
 
     }
+    ~peLajar(){
+        cout << "pelajar dihapus\n"<< endl;
+        
+    }
 
 };
